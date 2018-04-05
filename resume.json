@@ -16,14 +16,14 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "hjhart",
-        "url": ""
-      },
-      {
         "network": "GitHub",
         "username": "hjhart",
         "url": "https://github.com/hjhart"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hjameshart",
+        "url": "https://www.linkedin.com/in/hjameshart/"
       }
     ]
   },
@@ -34,12 +34,7 @@
       "website": "https://wanelo.co",
       "startDate": "2013-07-22",
       "endDate": "2018-04-05",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression."
     }
   ],
   "volunteer": [
@@ -49,10 +44,15 @@
       "website": "https://www.bassethoundrescue.org/",
       "startDate": "2014-01-01",
       "endDate": "2015-06-01",
-      "summary": "Basset Hound Rescue of Southern California is a 501(c)3 non-profit organization offering sanctuary, healing and forever families to distressed, abandoned, injured or homeless hounds.",
-      "highlights": [
-        "Rebuilt website."
-      ]
+      "summary": "Basset Hound Rescue of Southern California is a 501(c)3 non-profit organization offering sanctuary, healing and forever families to distressed, abandoned, injured or homeless hounds."
+    },
+    {
+      "organization": "Golden Gate Ruby Conference",
+      "position": "Web Developer",
+      "website": "http://gogaruco.com",
+      "startDate": "2013-05-01",
+      "endDate": "2013-09-01",
+      "summary": "GoGaRuCo was a great single-track conference in San Francisco that ran for six years. I approached the co-host of the conference to help build the website.  used the middleman gem to produce static HTML, CSS3 and JavaScript hosted on github pages. We used the Foundation framework and its css and javascript to build a responsive website across browsers and devices."
     }
   ],
   "education": [
@@ -66,16 +66,62 @@
   ],
   "skills": [
     {
-      "name": "Ruby on Rails",
-      "level": "Expert",
+      "name": "Ruby",
       "keywords": [
+        "Rails",
         "Capistrano",
-        "RSpec"
+        "Sidekiq",
+        "RSpec",
+        "Sinatra"
       ]
     },
     {
-      "name": "Bash",
-      "level": "Expert"
+      "name": "Operations",
+      "keywords": [
+        "Docker",
+        "Chef",
+        "Ansible",
+        "Bash",
+        "Nginx",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Data Stores / Search",
+      "keywords": [
+        "PostgreSQL",
+        "Redis",
+        "Solr",
+        "Memcached",
+        "ElasticSearch",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "keywords": [
+        "Jasmine",
+        "Backbone",
+        "Underscore",
+        "jQuery",
+        "Enyo",
+        "PhoneGap",
+        "Zurb Foundation",
+        "Bootstrap",
+        "Sass",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Tooling",
+      "keywords": [
+        "Git",
+        "Vim",
+        "RubyMine",
+        "Chrome Dev Tools",
+        "Pivotal Tracker",
+        "Travis CI, Circle CI, Jenkins"
+      ]
     }
   ],
   "languages": [
