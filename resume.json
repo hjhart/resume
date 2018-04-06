@@ -6,7 +6,7 @@
     "email": "hjhart+resume@gmail.com",
     "phone": "(425) 835-2366",
     "website": "http://hjhart.com",
-    "summary": "",
+    "summary": "For the last five years I've been working on becoming a full-stack ruby engineer. I’ve deployed numerous different types of software to hardware on EC2 and Joyent’s infrastructure using Chef. I’ve built numerous Ruby on Rails applications using test driven development. Each of which I applied my decade long front-end skills in HTML/CSS/JavaScript. ",
     "location": {
       "address": "1911 18th Ave. S.",
       "postalCode": "WA 98144",
@@ -34,7 +34,7 @@
       "website": "https://wanelo.co",
       "startDate": "2013-07-22",
       "endDate": "2018-04-05",
-      "summary": "At Wanelo, I led the engineering team for numerous years in both application development and platform operations. Under the direction of the CEO and the product team, I advised product owners how we should engineer our numerous products. I led the team that built and maintained our marketplace for selling products on Shopify. During our growth period, I helped build scalable solutions to handle user growth by sharding postgresql for our user saves. When our user base was declining, I helped advise the company to downgrade our servers and other third-party services to go from 115k to 60k in monthly operating costs."
+      "summary": "At Wanelo, I led the engineering team for numerous years in both application development and platform operations. Under the direction of the CEO and the product team, I advised product owners how we should engineer our numerous products. I led the team that built and maintained our marketplace for selling products on Shopify. During our growth period, I helped build scalable solutions to handle user growth by sharding postgresql for our user saves. When our user base was declining, I helped advise the company to downgrade our servers and other third-party services to go from $115k to $60k in monthly operating costs."
     },
     {
       "company": "RPX",
@@ -106,7 +106,14 @@
   "education": [
     {
       "institution": "University of Washington",
-      "area": "Mathematics and Informatics",
+      "area": "Informatics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-09-01",
+      "endDate": "2010-06-01"
+    },
+    {
+      "institution": "University of Washington",
+      "area": "Mathematics",
       "studyType": "Bachelor of Science",
       "startDate": "2005-09-01",
       "endDate": "2010-06-01"
