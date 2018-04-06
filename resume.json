@@ -6,7 +6,7 @@
     "email": "hjhart+resume@gmail.com",
     "phone": "(425) 835-2366",
     "website": "http://hjhart.com",
-    "summary": "For the last five years I've been working on becoming a full-stack ruby engineer. I’ve deployed numerous different types of software to hardware on EC2 and Joyent’s infrastructure using Chef. I’ve built numerous Ruby on Rails applications using test driven development. Each of which I applied my decade long front-end skills in HTML/CSS/JavaScript. ",
+    "summary": "Having worked remotely from Seattle with my coworkers in San Francisco for four years, I'm looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a full-stack engineer favoring the back-end and operations. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have eight years of experience of writing web applications with Ruby on Rails. I have extensive front-end work with Javascript, HTML, and CSS with some of the older frameworks. I am a voracious learner and enjoy working with like-minded people. ",
     "location": {
       "address": "1911 18th Ave. S.",
       "postalCode": "WA 98144",
