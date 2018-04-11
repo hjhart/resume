@@ -66,7 +66,7 @@
       "website": "http://eggwichapp.com",
       "startDate": "2010-10-01",
       "endDate": "2013-07-01",
-      "summary": "Became the lead engineer on our client-facing ruby on rails application. Worked over at Pivotal Labs for six months working using Ruby on Rails and learning agile methods and TDD. Lead the front-end development of a single-page backbone application. Built a gem to integrate multiple of our ruby applications onto the same database. Worked on several \"hackathon\" projects to help improve the workflow of other teams within the company. Built and maintained multiple ruby on rails applications and one Backbone.js application. Built an API to interface between postgres stored procedures and a rails application."
+      "summary": "EggWich is an iPhone application highlighting reviews and photos of egg sandwiches and breakfast burritos in San Francisco. The app was test-driven using Jasmine. I used the Enyo.js framework (previously Palm WebOS) to generate views and handle all user events. Runs on iOS using Phonegap."
     },
     {
       "company": "WebKey LLC",
