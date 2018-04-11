@@ -6,552 +6,487 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>James Hart</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
+
+	<style>
+	body {
 	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
+	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 0 0;
+	margin-bottom: 100px;
 }
 em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
+	color: #999;
 }
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
+p {
+	line-height: 1.6;
+	font-size: 90%;
 }
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
+a {
+	color: #2C85B1;
+	text-decoration: none;
+	font-weight: 400;
 }
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
+ul {
+	margin-bottom: 0;
 }
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
+section {
+	margin: 1em 0 2em;
 }
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 2em 2em 2em 2.5em;
+	max-width: 760px;
+}
+
+/* Resume heading */
+.heading header { 
+
+}
+
+.heading header h1 {
+	font-size: 180%;
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.heading header h2 {
+	font-size: 140%;
+	margin: 0;
+	font-weight: 400;
+}
+
+.heading header .contact .detail {
+	margin: 0 1em 0 0;
+}
+
+.profile {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+.profile strong,
+.profile span {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+/* section / line breaks */
+section h2 {
+	font-size: 140%;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #BC1B39;
+	font-weight: 400;
+}
+
+/* Experience items */
+.item {
+	margin: 0 0 1em;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #F2EBEC;
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+
+
+.item header h3 {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.item header a {
+	display: inline-block;
+}
+
+.item .position {
+	font-weight: 600;
+	font-size: 100%;
+	margin: 0.2em 1em 0.2em 0;
+}
+
+.item .startDate,
+.item .endDate {
+	color: #6B6B6B;
+}
+
+.item .highlights {
+	list-style: square;
+	font-size: 90%;
+}
+
+/* skills */
+#skills .item {
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
+	font-size: 90%;
+}
+
+#skills .item .name {
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
+}
+
+#skills .item .keywords {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+/* education */
+#education .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	border-bottom: 0;
+}
+
+
 
 	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 	
 	</head>
 	<body>
 	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						James Hart
-					</h1>
-					<h2>
-						Full-stack Engineer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
+	<div id="resume">
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">hjhart+resume@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">(425) 835-2366</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
+	<section class="heading">
+		<header>
+			<h1>James Hart</h1>
+			<div class="contact">
+				<span class="detail">
+					<a href="mailto:hjhart+resume@gmail.com">hjhart+resume@gmail.com</a>
+				</span>
+				<span class="detail">
+					(425) 835-2366
+				</span>
+				<span class="detail">
 					<a href="http://hjhart.com">http://hjhart.com</a>
-				</div>
+				</span>
 			</div>
+		</header>
+
+
+		<p><p>Having worked remotely from Seattle with my coworkers in San Francisco for four years, I'm looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a full-stack engineer favoring the back-end and operations. I have eight years of experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have extensive front-end work with Javascript, HTML, and CSS with some of the older frameworks. I am a voracious learner and enjoy working with like-minded people.</p></p>
+
+			<div class="profile">
+				<strong class="network">
+					GitHub
+				</strong>
+				<span class="username">
+					<a href="https://github.com/hjhart">hjhart</a>
+				</span>
+			</div>
+			<div class="profile">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<span class="username">
+					<a href="https://www.linkedin.com/in/hjameshart/">hjameshart</a>
+				</span>
+			</div>
+
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Ruby
+			</div>
+			<div class="keywords">
+					Rails, Capistrano, Sidekiq, RSpec, Sinatra
 			</div>
 		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Having worked remotely from Seattle with my coworkers in San Francisco for four years, I&#x27;m looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a full-stack engineer favoring the back-end and operations. I have eight years of experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have extensive front-end work with Javascript, HTML, and CSS with some of the older frameworks. I am a voracious learner and enjoy working with like-minded people.</p>
+		<div class="item">
+			<div class="name">
+				Operations
+			</div>
+			<div class="keywords">
+					Docker, Chef, Ansible, Bash, Nginx, Redis
+			</div>
 		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						GitHub
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://github.com/hjhart">hjhart</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						LinkedIn
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.linkedin.com/in/hjameshart/">hjameshart</a>
-						</div>
-					</div>
-				</div>
+		<div class="item">
+			<div class="name">
+				Data Stores / Search
+			</div>
+			<div class="keywords">
+					PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Front-End
+			</div>
+			<div class="keywords">
+					Jasmine, Backbone, jQuery, PhoneGap, Foundation, Bootstrap, Sass, HTML
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Tooling
+			</div>
+			<div class="keywords">
+					Git, Vim, RubyMine, Pivotal Tracker, Travis CI, Circle CI, Jenkins
 			</div>
 		</div>
 	</section>
 
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Wanelo</span>
-					<span class="date">
-						2013-07-22 — 2018-04-05
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://wanelo.co">https://wanelo.co</a>
-				</div>
-				<div class="position">
-					Director of Engineering
-				</div>
-				<div class="summary">
-					<p>At Wanelo, I led the engineering team for numerous years in both application development and platform operations. Under the direction of the CEO and the product team, I advised product owners how we should engineer our numerous products. I led the team that built and maintained our marketplace for selling products on Shopify. During our growth period, I helped build scalable solutions to handle user growth by sharding postgresql for our user saves. When our user base was declining, I helped advise the company to downgrade our servers and other third-party services to go from $115k to $60k in monthly operating costs.</p>
-				</div>
+	<section class="experience">
+		<h2>Experience</h2>
+		<section class="item">
+			<header>
+					<h3 class="name">Wanelo</h3>
+			</header>
+			<span class="position">
+				Director of Engineering
+			</span>
+
+			<span class="startDate">
+				Jul 2013
+			</span>
+			<span class="endDate">
+				- Apr 2018
+			</span>
+
+			<div class="summary">
+				<p><p>At Wanelo, I led the engineering team for numerous years in both application development and platform operations. Under the direction of the CEO and the product team, I advised product owners how we should engineer our numerous products. I led the team that built and maintained our marketplace for selling products on Shopify. During our growth period, I helped build scalable solutions to handle user growth by sharding postgresql for our user saves. When our user base was declining, I helped advise the company to downgrade our servers and other third-party services to go from $115k to $60k in monthly operating costs.</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>RPX</span>
-					<span class="date">
-						2010-10-01 — 2013-07-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://rpxcorp.com">https://rpxcorp.com</a>
-				</div>
-				<div class="position">
-					Senior Software Engineer
-				</div>
-				<div class="summary">
-					<p>Became the lead engineer on our client-facing ruby on rails application. Worked over at Pivotal Labs for six months working using Ruby on Rails and learning agile methods and TDD. Lead the front-end development of a single-page backbone application. Built a gem to integrate multiple of our ruby applications onto the same database. Worked on several &quot;hackathon&quot; projects to help improve the workflow of other teams within the company. Built and maintained multiple ruby on rails applications and one Backbone.js application. Built an API to interface between postgres stored procedures and a rails application.</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">RPX</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer
+			</span>
+
+			<span class="startDate">
+				Oct 2010
+			</span>
+			<span class="endDate">
+				- Jul 2013
+			</span>
+
+			<div class="summary">
+				<p><p>Became the lead engineer on our client-facing ruby on rails application. Worked over at Pivotal Labs for six months working using Ruby on Rails and learning agile methods and TDD. Lead the front-end development of a single-page backbone application. Built a gem to integrate multiple of our ruby applications onto the same database. Worked on several "hackathon" projects to help improve the workflow of other teams within the company. Built and maintained multiple ruby on rails applications and one Backbone.js application. Built an API to interface between postgres stored procedures and a rails application.</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Lean Startup Productions</span>
-					<span class="date">
-						2013-08-01 — 2014-12-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://leanstartup.co/">https://leanstartup.co/</a>
-				</div>
-				<div class="position">
-					Freelance Software Engineer
-				</div>
-				<div class="summary">
-					<p>Worked closely with clients to enhance Eric Ries&#x27; Conference’s website for two years. Test drove new conference software that matched attendees to their preferred mentors test-driven in pure ruby. Helped operate said software for two conferences (Lean Startup Conference 2014, QuickBooks Connect 2014). Built and maintained entrepeneurial editorial site called &quot;The How.&quot;</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Lean Startup Productions</h3>
+			</header>
+			<span class="position">
+				Freelance Software Engineer
+			</span>
+
+			<span class="startDate">
+				Aug 2013
+			</span>
+			<span class="endDate">
+				- Dec 2014
+			</span>
+
+			<div class="summary">
+				<p><p>Worked closely with clients to enhance Eric Ries' Conference’s website for two years. Test drove new conference software that matched attendees to their preferred mentors test-driven in pure ruby. Helped operate said software for two conferences (Lean Startup Conference 2014, QuickBooks Connect 2014). Built and maintained entrepeneurial editorial site called "The How."</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Tara Mohr</span>
-					<span class="date">
-						2013-10-01 — 2014-05-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.taramohr.com/">https://www.taramohr.com/</a>
-				</div>
-				<div class="position">
-					Freelance Software Engineer
-				</div>
-				<div class="summary">
-					<p>Built and maintained members’ only wordpress website. Coordinated with third-party software developers to improve their wordpress plugin (WooCommerce).</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Tara Mohr</h3>
+			</header>
+			<span class="position">
+				Freelance Software Engineer
+			</span>
+
+			<span class="startDate">
+				Oct 2013
+			</span>
+			<span class="endDate">
+				- May 2014
+			</span>
+
+			<div class="summary">
+				<p><p>Built and maintained members’ only wordpress website. Coordinated with third-party software developers to improve their wordpress plugin (WooCommerce).</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>EggWich iPhone App</span>
-					<span class="date">
-						2010-10-01 — 2013-07-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://eggwichapp.com">http://eggwichapp.com</a>
-				</div>
-				<div class="position">
-					Creator and Developer
-				</div>
-				<div class="summary">
-					<p>EggWich is an iPhone application highlighting reviews and photos of egg sandwiches and breakfast burritos in San Francisco. The app was test-driven using Jasmine. I used the Enyo.js framework (previously Palm WebOS) to generate views and handle all user events. Runs on iOS using Phonegap.</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">EggWich iPhone App</h3>
+			</header>
+			<span class="position">
+				Creator and Developer
+			</span>
+
+			<span class="startDate">
+				Oct 2010
+			</span>
+			<span class="endDate">
+				- Jul 2013
+			</span>
+
+			<div class="summary">
+				<p><p>EggWich is an iPhone application highlighting reviews and photos of egg sandwiches and breakfast burritos in San Francisco. The app was test-driven using Jasmine. I used the Enyo.js framework (previously Palm WebOS) to generate views and handle all user events. Runs on iOS using Phonegap.</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>WebKey LLC</span>
-					<span class="date">
-						2008-05-01 — 2010-09-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://www.webkeylive.com/">http://www.webkeylive.com/</a>
-				</div>
-				<div class="position">
-					Web Developer
-				</div>
-				<div class="summary">
-					<p>The owner and I worked closely with one another to deliver our clients with web design and development. I developed secure and usable web forms with PHP, HTML, CSS and JavaScript. Experience with customer service by providing clients help for their questions, performing user interviews, and recommending solutions to any bugs or errors they might have found. Clients include: Fremont Brewing Company, Washington Green Roads, Richard Conlin (Seattle City Council), Washington Green Schools, and many more.</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">WebKey LLC</h3>
+			</header>
+			<span class="position">
+				Web Developer
+			</span>
+
+			<span class="startDate">
+				May 2008
+			</span>
+			<span class="endDate">
+				- Sep 2010
+			</span>
+
+			<div class="summary">
+				<p><p>The owner and I worked closely with one another to deliver our clients with web design and development. I developed secure and usable web forms with PHP, HTML, CSS and JavaScript. Experience with customer service by providing clients help for their questions, performing user interviews, and recommending solutions to any bugs or errors they might have found. Clients include: Fremont Brewing Company, Washington Green Roads, Richard Conlin (Seattle City Council), Washington Green Schools, and many more.</p></p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>hjhart.com</span>
-					<span class="date">
-						2006-08-01 — 2010-09-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://hjhart.com">http://hjhart.com</a>
-				</div>
-				<div class="position">
-					Freelance Web Design and Development
-				</div>
-				<div class="summary">
-					<p>I’ve used numerous different methods of development: from using open-source content management systems, to developing everything from scratch. Designing was always done in-house using Photoshop. Development occurs on a PHP/MySQL platform, with the use of standards-compliant HTML and CSS with JavaScript. With these projects, building my skill set is very important as is communicating with the client exactly what they require. Clients include: Damon Barnett, Night Owl Lounge, Carso&#x27;s Pasta, Saga Beverages, WoofSites, PitchSmarter, Bainbridge Island Yacht Club, and many more.</p>
-				</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">hjhart.com</h3>
+			</header>
+			<span class="position">
+				Freelance Web Design and Development
+			</span>
+
+			<span class="startDate">
+				Aug 2006
+			</span>
+			<span class="endDate">
+				- Sep 2010
+			</span>
+
+			<div class="summary">
+				<p><p>I’ve used numerous different methods of development: from using open-source content management systems, to developing everything from scratch. Designing was always done in-house using Photoshop. Development occurs on a PHP/MySQL platform, with the use of standards-compliant HTML and CSS with JavaScript. With these projects, building my skill set is very important as is communicating with the client exactly what they require. Clients include: Damon Barnett, Night Owl Lounge, Carso's Pasta, Saga Beverages, WoofSites, PitchSmarter, Bainbridge Island Yacht Club, and many more.</p></p>
 			</div>
-			</div>
-		</div>
+		</section>
 	</section>
 
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Basset Hound Rescue of Southern California</span>
-					<span class="date">
-						2014-01-01 — 2015-06-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.bassethoundrescue.org/">https://www.bassethoundrescue.org/</a>
-				</div>
-				<div class="position">
-					Web Developer
-				</div>
-				<div class="summary">
-					<p>Basset Hound Rescue of Southern California is a 501(c)3 non-profit organization offering sanctuary, healing and forever families to distressed, abandoned, injured or homeless hounds.</p>
-				</div>
+	<section class="experience">
+		<h2>Volunteering</h2>
+		<div class="item">
+			<header>
+					<h3 class="name">Basset Hound Rescue of Southern California</h3>
+			</header>
+			<span class="position">
+				Web Developer
+			</span>
+
+			<span class="startDate">
+				Jan 2014
+			</span>
+			<span class="endDate">
+				- Jun 2015
+			</span>
+
+			<div class="summary">
+				<p>Basset Hound Rescue of Southern California is a 501(c)3 non-profit organization offering sanctuary, healing and forever families to distressed, abandoned, injured or homeless hounds.</p>
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Golden Gate Ruby Conference</span>
-					<span class="date">
-						2013-05-01 — 2013-09-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://gogaruco.com">http://gogaruco.com</a>
-				</div>
-				<div class="position">
-					Web Developer
-				</div>
-				<div class="summary">
-					<p>GoGaRuCo was a great single-track conference in San Francisco that ran for six years. I approached the co-host of the conference to help build the website.  used the middleman gem to produce static HTML, CSS3 and JavaScript hosted on github pages. We used the Foundation framework and its css and javascript to build a responsive website across browsers and devices.</p>
-				</div>
-			</div>
+		</div>
+		<div class="item">
+			<header>
+					<h3 class="name">Golden Gate Ruby Conference</h3>
+			</header>
+			<span class="position">
+				Web Developer
+			</span>
+
+			<span class="startDate">
+				May 2013
+			</span>
+			<span class="endDate">
+				- Sep 2013
+			</span>
+
+			<div class="summary">
+				<p>GoGaRuCo was a great single-track conference in San Francisco that ran for six years. I approached the co-host of the conference to help build the website.  used the middleman gem to produce static HTML, CSS3 and JavaScript hosted on github pages. We used the Foundation framework and its css and javascript to build a responsive website across browsers and devices.</p>
 			</div>
 		</div>
 	</section>
 	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Washington</span>
-					<span class="date">
-						2005-09-01 — 2010-06-01
-					</span>
-				</h4>
-				<div class="area">
-					Informatics
-				</div>
-				<div class="studyType">
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			<header>
+					<h3 class="name">University of Washington</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Sep 2005
+				</span>
+				<span class="endDate">
+					- Jun 2010
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
 					Bachelor of Science
-				</div>
+				</span>
+
+				<span class="area">
+					- Informatics
+				</span>
+
 			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Washington</span>
-					<span class="date">
-						2005-09-01 — 2010-06-01
-					</span>
-				</h4>
-				<div class="area">
-					Mathematics
-				</div>
-				<div class="studyType">
+
+		</div>
+		<div class="item">
+			<header>
+					<h3 class="name">University of Washington</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Sep 2005
+				</span>
+				<span class="endDate">
+					- Jun 2010
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
 					Bachelor of Science
-				</div>
+				</span>
+
+				<span class="area">
+					- Mathematics
+				</span>
+
 			</div>
-			</div>
+
 		</div>
 	</section>
 	
 	
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Ruby</h4>
-				</div>
-				<ul class="keywords">
-					<li>Rails, Capistrano, Sidekiq, RSpec, Sinatra</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Operations</h4>
-				</div>
-				<ul class="keywords">
-					<li>Docker, Chef, Ansible, Bash, Nginx, Redis</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Data Stores / Search</h4>
-				</div>
-				<ul class="keywords">
-					<li>PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Front-End</h4>
-				</div>
-				<ul class="keywords">
-					<li>Jasmine, Backbone, jQuery, PhoneGap, Foundation, Bootstrap, Sass, HTML</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Tooling</h4>
-				</div>
-				<ul class="keywords">
-					<li>Git, Vim, RubyMine, Pivotal Tracker, Travis CI, Circle CI, Jenkins</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
 
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Native speaker
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
 
 	
-
+	
 	</div>
 	
 	</body>

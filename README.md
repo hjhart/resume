@@ -2,13 +2,12 @@
 
 ## How to publish your resume!
 
-npm install -g resume-cli
-resume export --theme flat resume.html
-cp resume.html resume.json resume.pdf ../hjhart.com/middleman/source/resumes/
 
 docker-compose build
-docker-compose run --rm resume resume export --theme flat resume.html
+docker-compose run --rm ./node_modules/.bin/resume resume export --theme short resume.html
+docker-compose run --rm ./node_modules/.bin/resume resume export --theme short resume.pdf
 
+cp resume.html resume.json resume.pdf ../hjhart.com/middleman/source/resumes/
 
 ## To install ALL themes to export them ALL!
 
