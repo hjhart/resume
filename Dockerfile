@@ -1,12 +1,12 @@
 FROM node
 
-RUN npm install -g resume-cli
-RUN apt-get install phantomjs
+ARG NODE_ENV
+ENV NODE_ENV $NODE_ENV
+
 RUN mkdir -p /resume
 WORKDIR /resume
 COPY resume.json /resume/resume.json
+COPY package.json /resume/package.json
+COPY package-lock.json /resume/package-lock.json
+RUN npm install
 
-COPY install_all_themes.sh /tmp/
-RUN /tmp/install_all_themes.sh
-
-# This stuff below will install all the themes

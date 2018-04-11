@@ -6,6 +6,15 @@ npm install -g resume-cli
 resume export --theme flat resume.html
 cp resume.html resume.json resume.pdf ../hjhart.com/middleman/source/resumes/
 
+docker-compose build
+docker-compose run --rm resume resume export --theme flat resume.html
+
+
+## To install ALL themes to export them ALL!
+
+docker-compose build --build-arg NODE_ENV=development resume
+docker-compose run --rm resume ./export_all_themes.sh
+
 ## How to update
 
 Use this script to replace json themes:

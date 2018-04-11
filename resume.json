@@ -123,59 +123,31 @@
     {
       "name": "Ruby",
       "keywords": [
-        "Rails",
-        "Capistrano",
-        "Sidekiq",
-        "RSpec",
-        "Sinatra"
+        "Rails, Capistrano, Sidekiq, RSpec, Sinatra"
       ]
     },
     {
       "name": "Operations",
       "keywords": [
-        "Docker",
-        "Chef",
-        "Ansible",
-        "Bash",
-        "Nginx",
-        "Redis"
+        "Docker, Chef, Ansible, Bash, Nginx, Redis"
       ]
     },
     {
       "name": "Data Stores / Search",
       "keywords": [
-        "PostgreSQL",
-        "Redis",
-        "Solr",
-        "Memcached",
-        "ElasticSearch",
-        "MySQL"
+        "PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL"
       ]
     },
     {
       "name": "Front-End",
       "keywords": [
-        "Jasmine",
-        "Backbone",
-        "Underscore",
-        "jQuery",
-        "Enyo",
-        "PhoneGap",
-        "Zurb Foundation",
-        "Bootstrap",
-        "Sass",
-        "HTML"
+        "Jasmine, Backbone, jQuery, PhoneGap, Foundation, Bootstrap, Sass, HTML"
       ]
     },
     {
       "name": "Tooling",
       "keywords": [
-        "Git",
-        "Vim",
-        "RubyMine",
-        "Chrome Dev Tools",
-        "Pivotal Tracker",
-        "Travis CI, Circle CI, Jenkins"
+        "Git, Vim, RubyMine, Pivotal Tracker, Travis CI, Circle CI, Jenkins"
       ]
     }
   ],
