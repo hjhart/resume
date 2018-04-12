@@ -4,8 +4,8 @@
 
 
 docker-compose build
-docker-compose run --rm ./node_modules/.bin/resume resume export --theme short resume.html
-docker-compose run --rm ./node_modules/.bin/resume resume export --theme short resume.pdf
+docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
+docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.pdf
 
 cp resume.html resume.json resume.pdf ../hjhart.com/middleman/source/resumes/
 
