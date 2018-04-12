@@ -12,27 +12,17 @@ cp resume.html resume.json resume.pdf ../hjhart.com/middleman/source/resumes/
 ## To install ALL themes to export them ALL!
 
 docker-compose build --build-arg NODE_ENV=development resume
-docker-compose run --rm resume ./export_all_themes.sh
+docker-compose run --rm resume bash ./scripts/export_all_themes.sh
 
-## How to update
+## How to update which themes to install / export
 
-Use this script to replace json themes:
+Remove all devDependencies from package.json (this is where the theme depenedencies are managed)
 
 Navigate to http://npmsearch.com/?q=jsonresume-theme and execute this in the console
 
 ```
-javascript:(function() {
-    function l(u, i) {
-        var d = document;
-        if (!d.getElementById(i)) {
-            var s = d.createElement('script');
-            s.src = u;
-            s.id = i;
-            d.body.appendChild(s);
-        }
-    }
-    l('//code.jquery.com/jquery-3.2.1.min.js', 'jquery')
-})();
-array = []; $('.name .homepage').each(function() { array.push(this.innerHTML) }); array.join(' ')
+javascript:(function(){function l(u,i){var d=document;if(!d.getElementById(i)){var s=d.createElement('script');s.src=u;s.id=i;d.body.appendChild(s)}}l('//code.jquery.com/jquery-3.2.1.min.js','jquery')})();
+array = []; $('.name .homepage').each(function() { array.push(this.innerHTML).substr(17) }); array.join(' ')
 ```
-put the result into the bash script.
+
+put the result into the ./export_all_themes.sh and ./install_all_themes.sh bash scripts.
