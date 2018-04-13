@@ -4,6 +4,7 @@
 
 
 docker-compose build
+docker-compose run --rm -e NODE_ENV=development resume npm install
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.pdf
 
