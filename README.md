@@ -2,18 +2,21 @@
 
 ## How to publish your resume!
 
-
+```bash
 docker-compose build
 docker-compose run --rm -e NODE_ENV=development resume npm install
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.pdf
+```
 
 cp resume.html resume.json resume.pdf ../hjhart.com/source/resumes/
 
 ## To install ALL themes to export them ALL!
 
+```bash
 docker-compose build --build-arg NODE_ENV=development resume
 docker-compose run --rm resume bash ./scripts/export_all_themes.sh
+```
 
 ## How to update which themes to install / export
 
