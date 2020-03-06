@@ -1,7 +1,9 @@
-version: '3'
+version: "3"
 services:
   resume:
-    build: 
+    environment:
+      RESUME_PUPPETEER_NO_SANDBOX: 1
+    build:
       context: .
       args:
         node_env: production
