@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "James Hart",
-    "label": "Full-stack Engineer",
+    "label": "Principal Engineer",
     "picture": "",
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "http://hjhart.com",
-    "summary": "Having worked remotely from Seattle with my coworkers in San Francisco for four years, I'm looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a full-stack engineer favoring the back-end and operations. I have eight years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have extensive front-end work with Javascript, HTML, and CSS with some of the older frameworks. I am a voracious learner and enjoy working with like-minded people.",
+    "summary": "Having six years of remote experience, I’m looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a true full-stack engineer favoring back-end optimization and operations. I have ten years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have extensive front-end work with react and react-native experience. I am a voracious learner and enjoy working with like-minded people.",
     "location": {
       "address": "1911 18th Ave. S.",
       "postalCode": "WA 98144",
@@ -129,11 +129,11 @@
   "skills": [
     {
       "name": "Ruby",
-      "keywords": ["Rails, Capistrano, Sidekiq, RSpec, Sinatra"]
+      "keywords": ["Rails, Sidekiq, RSpec, Capybara"]
     },
     {
       "name": "Operations",
-      "keywords": ["Docker, Chef, Ansible, Bash, Nginx, HAProxy"]
+      "keywords": ["Docker, Heroku, Bash, Nginx, HAProxy"]
     },
     {
       "name": "Data Stores / Search",
@@ -141,14 +141,12 @@
     },
     {
       "name": "Front-End",
-      "keywords": [
-        "Jasmine, Backbone, jQuery, PhoneGap, Foundation, Bootstrap, Sass, HTML"
-      ]
+      "keywords": ["React, React Native, Webpack, Jest, Detox, Sass"]
     },
     {
       "name": "Tooling",
       "keywords": [
-        "Git, Vim, RubyMine, Pivotal Tracker, Travis CI, Circle CI, Jenkins"
+        "Git, Vim, VSCode, Pivotal Tracker, Travis CI, Circle CI, Jenkins"
       ]
     }
   ]
