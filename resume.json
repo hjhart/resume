@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "James Hart",
-    "label": "Principal Engineer",
+    "label": "Senior Engineer",
     "picture": "",
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
@@ -29,10 +29,18 @@
   },
   "work": [
     {
+      "company": "Brightline",
+      "position": "Senior Engineer",
+      "website": "https://hellobrightline.com",
+      "startDate": "2020-06-01",
+      "summary": "I'm currently building the digital experience for our members. Working with React, Rails, TypeScript, Tailwind CSS."
+    },
+    {
       "company": "Voom Flights, an Airbus Company",
       "position": "Principal Engineer",
       "website": "https://voom.flights",
       "startDate": "2018-07-20",
+      "endDate": "2020-05-30",
       "summary": "At Voom, I worked closely with the engineers and designers on the product team and also acted as the liason to the leadership team. I mentored engineers through pairing and helped facilitate making hard technical decisions when the team needed guidance. Often, my job was unblocking bottlenecks for the team. I took an active interest in optimizing the CI / CD process to enable us to ship code faster. I helped drive the growth of the team from 4 engineers to 14. Our team built a rails / react web app as well as a react-native app."
     },
     {
@@ -129,19 +137,27 @@
   "skills": [
     {
       "name": "Ruby",
-      "keywords": ["Rails, Sidekiq, RSpec, Capybara"]
+      "keywords": [
+        "Rails, Sidekiq, RSpec, Capybara"
+      ]
     },
     {
       "name": "Operations",
-      "keywords": ["Docker, Heroku, Bash, Nginx, HAProxy"]
+      "keywords": [
+        "Docker, Heroku, Bash, Nginx, HAProxy"
+      ]
     },
     {
       "name": "Data Stores / Search",
-      "keywords": ["PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL"]
+      "keywords": [
+        "PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL"
+      ]
     },
     {
       "name": "Front-End",
-      "keywords": ["React, React Native, Webpack, Jest, Detox, Sass"]
+      "keywords": [
+        "React, React Native, Webpack, Jest, Detox, Sass"
+      ]
     },
     {
       "name": "Tooling",
