@@ -8,6 +8,8 @@ docker-compose run --rm resume ./node_modules/.bin/resume export --theme short r
 open resume.html
 ```
 
+> NOTE: PDF saving is broken with this docker image. For now, it's easy enough to "Save as PDF" from the HTML
+
 Print as PDF from Firefox to ~/workspaces/resumes/resume.pdf
 
 ```
