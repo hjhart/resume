@@ -5,10 +5,14 @@
 ```bash
 docker-compose build
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
-docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.pdf
+open resume.html
 ```
 
+Print as PDF from Firefox to ~/workspaces/resumes/resume.pdf
+
+```
 cp resume.html resume.json resume.pdf ../hjhart.com/source/resumes/
+```
 
 ## To install ALL themes to export them ALL!
 
