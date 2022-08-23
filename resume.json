@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "James Hart",
-    "label": "Senior Engineer",
+    "label": "Principal Software Engineer",
     "picture": "",
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "http://hjhart.com",
-    "summary": "Having six years of remote experience, I’m looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a true full-stack engineer favoring back-end optimization and operations. I have ten years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch. I have extensive front-end work with react and react-native experience. I am a voracious learner and enjoy working with like-minded people.",
+    "summary": "Having eight years of remote experience, I’m looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building front-end design system components. I have thirteen years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch, however I have a preference for creating the simplest infrastructure as is reasonable. I have extensive front-end work with react and two years of react-native experience. I am a voracious learner and enjoy working with like-minded people.",
     "location": {
       "address": "1911 18th Ave. S.",
       "postalCode": "WA 98144",
@@ -30,10 +30,10 @@
   "work": [
     {
       "company": "Brightline",
-      "position": "Senior Engineer",
+      "position": "Principal Engineer",
       "website": "https://hellobrightline.com",
       "startDate": "2020-06-01",
-      "summary": "I'm currently building the digital experience for our members. Working with React, Rails, TypeScript, Tailwind CSS."
+      "summary": "I'm currently building the digital experience for our members as well as our front-end design system. I built and maintained the entire CI/CD pipeline, including optimizing a CI / CD build down from 75 minutes to 10 minutes. Working with Rails, ViewComponent, TypeScript, Tailwind CSS."
     },
     {
       "company": "Voom Flights, an Airbus Company",
@@ -132,6 +132,15 @@
       "studyType": "Bachelor of Science",
       "startDate": "2005-09-01",
       "endDate": "2010-06-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Examining the Relationship Between Pediatric Behavioral Health and Parent Productivity Through a Parent-Reported Survey in the Time of COVID-19: Exploratory Study ",
+      "publisher": "JMIR Publications",
+      "releaseDate": "2022-08-18",
+      "url": "https://formative.jmir.org/2022/8/e37285",
+      "summary": "I built the COBI app that was used to collect data, which was then synthesized to create this publication."
     }
   ],
   "skills": [

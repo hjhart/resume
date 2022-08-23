@@ -6,7 +6,5 @@ services:
       NODE_ENV: development
     build:
       context: .
-      args:
-        node_env: production
     volumes:
       - .:/resume
