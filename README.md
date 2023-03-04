@@ -6,7 +6,7 @@
 docker-compose build
 docker-compose run --rm resume npm install
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
-open resume.html
+open resume.html -a /Applications/Firefox.app
 ```
 
 > NOTE: PDF saving is broken with this docker image. For now, it's easy enough to "Save as PDF" from the HTML
