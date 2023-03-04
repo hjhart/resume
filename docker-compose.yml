@@ -2,7 +2,7 @@ version: "3"
 services:
   resume:
     environment:
-      RESUME_PUPPETEER_NO_SANDBOX: 1
+      PUPPETEER_SKIP_DOWNLOAD: 1
       NODE_ENV: development
     build:
       context: .

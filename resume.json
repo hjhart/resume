@@ -5,8 +5,8 @@
     "picture": "",
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
-    "website": "http://hjhart.com",
-    "summary": "Having eight years of remote experience, I’m looking for a remote position on a team where I can continue to grow as an engineer as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building front-end design system components. I have thirteen years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of infrastructure necessary to run a scalable server-side application, including nginx, haproxy, postgresql, memcached, redis, solr, elasticsearch, however I have a preference for creating the simplest infrastructure as is reasonable. I have extensive front-end work with react and two years of react-native experience. I am a voracious learner and enjoy working with like-minded people.",
+    "website": "https://hjhart.com",
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end clients. I have thirteen years experience of writing web applications with Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I am a voracious learner and enjoy working with like-minded people.",
     "location": {
       "address": "1911 18th Ave. S.",
       "postalCode": "WA 98144",
@@ -33,7 +33,7 @@
       "position": "Principal Engineer",
       "website": "https://hellobrightline.com",
       "startDate": "2020-06-01",
-      "summary": "I'm currently building the digital experience for our members as well as our front-end design system. I built and maintained the entire CI/CD pipeline, including optimizing a CI / CD build down from 75 minutes to 10 minutes. Working with Rails, ViewComponent, TypeScript, Tailwind CSS."
+      "summary": "Lead the engineering team focused on the member experience. Bootstrapped the initial architecture around a Rails app. I built and maintained the entire CI/CD pipeline, including optimizing a CI / CD build down from 75 minutes to 10 minutes. I transitioned to the iOS team writing SwiftUI and helping to launch the iOS app. Other technologies worked with were Rails, ViewComponent, TypeScript, Tailwind CSS."
     },
     {
       "company": "Voom Flights, an Airbus Company",
@@ -153,25 +153,25 @@
     {
       "name": "Operations",
       "keywords": [
-        "Docker, Heroku, Bash, Nginx, HAProxy"
+        "Docker, Aptible, Heroku, Bash, Nginx, HAProxy"
       ]
     },
     {
       "name": "Data Stores / Search",
       "keywords": [
-        "PostgreSQL, Redis, Solr, Memcached, ElasticSearch, MySQL"
+        "PostgreSQL, Redis, Solr, Memcached, ElasticSearch"
       ]
     },
     {
       "name": "Front-End",
       "keywords": [
-        "React, React Native, Webpack, Jest, Detox, Sass"
+        "SwiftUI, React, React Native, Webpack, Jest, Detox, Sass"
       ]
     },
     {
       "name": "Tooling",
       "keywords": [
-        "Git, Vim, VSCode, Pivotal Tracker, Travis CI, Circle CI, Jenkins"
+        "Git, Vim, VSCode, Pivotal Tracker, Github Actions, Circle CI"
       ]
     }
   ]

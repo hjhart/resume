@@ -4,6 +4,7 @@
 
 ```bash
 docker-compose build
+docker-compose run --rm resume npm install
 docker-compose run --rm resume ./node_modules/.bin/resume export --theme short resume.html
 open resume.html
 ```
