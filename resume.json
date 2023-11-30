@@ -102,6 +102,13 @@
   ],
   "volunteer": [
     {
+      "organization": "Beacon Hill International School PTA",
+      "position": "Web Developer",
+      "website": "https://www.beaconhillpta.org/",
+      "startDate": "2023-09-01",
+      "summary": "Volunteered my time to make the website more accessible and easier to publish content."
+    },
+    {
       "organization": "Basset Hound Rescue of Southern California",
       "position": "Web Developer",
       "website": "https://www.bassethoundrescue.org/",
@@ -121,14 +128,14 @@
   "education": [
     {
       "institution": "University of Washington",
-      "area": "Informatics",
+      "area": "Mathematits",
       "studyType": "Bachelor of Science",
       "startDate": "2005-09-01",
       "endDate": "2010-06-01"
     },
     {
       "institution": "University of Washington",
-      "area": "Mathematics",
+      "area": "Informatics",
       "studyType": "Bachelor of Science",
       "startDate": "2005-09-01",
       "endDate": "2010-06-01"
