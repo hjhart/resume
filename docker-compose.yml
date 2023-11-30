@@ -2,9 +2,9 @@ version: "3"
 services:
   resume:
     environment:
-      PUPPETEER_SKIP_DOWNLOAD: 1
+      PUPPETEER_SKIP_DOWNLOAD: true
       NODE_ENV: development
     build:
       context: .
     volumes:
-      - .:/resume
+      - ./resume.html:/resume/resume.html
