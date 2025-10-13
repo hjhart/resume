@@ -16,6 +16,11 @@ Print as PDF from Firefox to ~/workspaces/resumes/resume.pdf
 cp resume.html resume.json resume.pdf ../hjhart.com/source/resumes/
 ```
 
+
+## Upload resume to blog
+
+scp resume.* deploy@hjhart.com:/home/www/hjhart_com/_site/resumes/
+
 ## To install ALL themes to export them ALL!
 
 ```bash
