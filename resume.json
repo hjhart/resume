@@ -26,7 +26,7 @@
       "position": "Principal Engineer",
       "website": "https://claritypediatrics.com",
       "startDate": "2025-01-06",
-      "summary": "Learned the ins and outs of the Clarity platform, where parents and children get help  treating ADHD. Supported our iOS engineer launch the app. Built the members web app front-end using NextJS and React. Worked syncing data from Healthie to better support self-schedulin efforts for our members."
+      "summary": "Supported our iOS engineer launch the app by building APIs. Re-built the members main web-app using NextJS and React atop of same APIs. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members."
     },
     {
       "company": "Brightline Health",
